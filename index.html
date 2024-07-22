@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>BasketBall ScoreCard</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+        <meta name="author" content="Subir Sutradhar">
+        <link rel="stylesheet" href="index.css">
+        <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="main">
+            <h2>Basket Ball Counter</h2>
+            <div class="container">
+                
+                <div class="box">
+                    <p class="header">HOME</p>
+                    <div class="card">
+                        <p class="scoreH" id="scoreH"></p>
+                    </div>
+                    <div class="button">
+                        <button class="plus1H" id="plus1H" onclick="plus1H()">+1</button>
+                        <button class="plus2H" id="plus2H" onclick="plus2H()">+2</button>
+                        <button class="plus3H" id="plus3H" onclick="plus3H()">+3</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <p class="header">GUEST</p>
+                    <div class="card">
+                        <p class="scoreG" id="scoreG"></p>
+                    </div>
+                    <div class="button">
+                        <button class="plus1G" id="plus1G" onclick="plus1G()">+1</button>
+                        <button class="plus2G" id="plus2G" onclick="plus2G()">+2</button>
+                        <button class="plus3G" id="plus3G" onclick="plus3G()">+3</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+
+</html>

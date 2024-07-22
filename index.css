@@ -1,0 +1,83 @@
+
+/* 
+    Styling for Basket Ball Counter
+    Author: Subir Sutradhar
+    Date: 22nd July 2024
+*/
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width:50%;
+    height:340px;
+    margin: 10% auto;
+    margin-top:5px;
+    background-color: blue;
+    border-radius: 15px;
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+    
+}
+.box{
+    position: relative;
+    padding:5px;
+    width:30%;
+    height:70%;
+    margin:5%;  
+}
+.header{
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    color:white;
+    margin:3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 5px;
+}
+.card{
+    width:80%;
+    height:60%;
+    background-color: black;
+    margin: 10px auto;
+    padding: 5px;
+
+}
+.scoreH, .scoreG{
+
+    color:red;
+    text-align: center;
+    margin: 20px auto;
+    font-family: Orbitron;
+    font-size: 400%;
+    font-weight: bolder;
+}
+.button{
+    width:100%;
+    height:40px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.plus1H, .plus2H, .plus3H, .plus1G, .plus2G, .plus3G{
+    width:20%;
+    height:auto;
+    font-family: Orbitron;
+    letter-spacing: 2px;
+    background-color: blue;
+    border:2px solid white;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+.main{
+    text-align: center;
+}
+.main >h2{
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
