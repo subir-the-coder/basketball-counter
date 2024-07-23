@@ -41,3 +41,10 @@ function plus3G()
     num2 += 3
     document.getElementById("scoreG").textContent = num2
 }
+//Reset function
+function reset(){
+    document.getElementById("scoreG").textContent = 0
+    document.getElementById("scoreH").textContent = 0
+    num1 = 0
+    num2 = 0
+}
